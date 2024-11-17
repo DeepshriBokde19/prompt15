@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .container{
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 174, 255, 0.459);
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .form-info{
+        height: 90vh;
+        width: 60vw;
+        background-color: white;
+    }
+    .up .img1 img{
+height: 30vh;
+width: 60vw;
+    }
+    .middle {
+        margin-left: 3vw;
+    }
+    .middle h1{
+        font-weight: 100;
+    }
+    .middle p{
+        color: #80b3ff;
+    }
+    .down {
+        margin-top: 6vh;
+        margin-left: 3vw;
+    }
+    .down .name button{
+        width: 15vw;
+        height: 4vh;
+
+    }
+    .name{
+        display: flex;
+        gap: 2vh;
+    }
+    .down p{
+        font-weight: 200;
+        margin-bottom: 1vw;
+    }
+    
+    .name button{
+        border: 0.5px solid grey;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .name p{
+        font-size: 1.5vh;
+        color: rgb(82, 81, 81);
+
+    }
+    .dropdown .details {
+        /* width: 12vw; */
+        display: flex;
+        
+    }
+    .dropdown .details  input{
+        width: 15vw;
+        height: 3.4vh;
+        
+        border: 0.5px solid grey;
+        background-color: white;
+        border-radius: 5px;
+        margin-right: 2vh;
+
+    }
+    .details p{
+        font-size: 1.5vh;
+        color: rgb(82, 81, 81);
+
+    }
+    .travel-details{
+        height: 25vh;
+        width: 60vw;
+        /* background-color: brown; */
+    }
+    .travel-details .Travel{
+        width: 60vw;
+        height: 5vh;
+        text-align: center;
+        color: white;
+        background-color: #80b3ff;
+        font-weight: 500;
+        border: none;
+        margin-bottom: 2vh;
+    }
+    .flight-details{
+        display: flex;
+        gap: 8vh;
+        align-items: center;
+        justify-content:space-evenly;
+        margin-left: 4vh;
+    }
+   
+     .travel-details .submit button{
+        width: 7vw;
+    }
+    .travel-details .submit{
+        width: 10vw;
+        height: 4vh;
+        border-radius: 5px;
+        background-color: rgb(13, 134, 240);
+        color: white;
+        border: none;
+        margin-left: 30vw;
+    }
+    .flight-details form{
+        color:gray;
+    }
+    .down .name .button1 button :hover{
+        rotate: 360deg;
+    }
+
+
+
+    @media (max-width:500px) {
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.9vh;
+            height: 100%;
+            width: 100%;
+        }
+        .form-info{
+            width: 80%;
+            height: 95%;
+        }
+        .up .img1 img{
+           width: 80vw;
+        }
+         .down .name button{
+            width: 5rem;
+        }
+        .dropdown{
+            margin-top: 2vh;
+            width: 15vw;
+            
+        }
+        .travel-details .Travel {
+            width: 80vw;
+            margin-top: 2vh;
+        }
+        .flight-details form{
+            /* width: 90vw; */
+        }.flight-details form label{
+            font-size: 2vh;
+        }
+        .flight-details{
+            display: flex;
+                }
+                .flight-details .form1{
+                    width: 4vw;
+                    height: 2vh;
+                }
+                .flight-details .form2{
+                    width: 4vw;
+                    height: 2vh;
+                }
+                .submit{
+                    margin-top: 16vh;
+                    height: 5px;
+                    font-size: 1vh;
+                    width: 90vw;
+                    
+                }
+                
+        }
+    
